@@ -18,7 +18,7 @@ app.use(
 );
 
 app.get('/',(req,res) => {
-    res.json({ info: 'API de curriculo com Node.js, Express e ElephantSQL (POSTGRES)'})
+    res.json({ info: 'API do meu curriculo com Node.js, Express e ElephantSQL (POSTGRES)'})
 });
 
 // GET
